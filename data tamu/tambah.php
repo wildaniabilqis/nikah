@@ -167,7 +167,7 @@ if(isset($_POST['update'])){
             <div class="form-group">
                 <label>Konfirmasi Kehadiran</label>
                 <select name="kehadiran" required>
-                    <option value="" disabled selected>Pilih status kehadiran</option>
+                    <option value="disabled selected">Pilih status kehadiran</option>
                     <option value="Hadir">Hadir</option>
                     <option value="Insyaallah hadir">Insyaallah hadir</option>
                     <option value="Tidak hadir">Tidak hadir</option>
